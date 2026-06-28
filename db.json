@@ -1,0 +1,260 @@
+[
+  {
+    "id": "rep-1",
+    "title": "Severe flooding near Market Square",
+    "description": "Heavy overnight rain has caused complete flooding of the main market crossing. Water levels are up to 2 feet, blocking storefronts and stalling vehicles. The local drainage grid appears completely choked with plastic garbage.",
+    "category": "flooding",
+    "location": {
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "ward": "Ward 4 (Downtown)",
+      "address": "Market Square Corner, Sector 3"
+    },
+    "status": "Pending",
+    "severity": "Critical",
+    "createdAt": "2026-06-27T08:30:00.000Z",
+    "contactDetails": {
+      "name": "Sarah Jenkins",
+      "phone": "+1 (555) 342-9901",
+      "email": "sarah.j@civictwin.org"
+    },
+    "analysis": {
+      "detectedIssue": "Severe street flooding and drainage failure",
+      "confidenceScore": 0.96,
+      "severity": "Critical",
+      "urgency": "Immediate",
+      "suggestedDepartment": "Disaster Response & Stormwater Engineering",
+      "explanation": "Active flooding blocking major commercial roads, posing an electrical hazard and severe structural risks to businesses. Requires urgent pump dispatch.",
+      "priorityLevel": "Critical",
+      "suggestedAuthority": "Municipal Stormwater Management",
+      "recommendedResponseTime": "2 hours",
+      "summary": "Critical flooding of main commercial intersection due to storm drain blockages. Road is impassable."
+    }
+  },
+  {
+    "id": "rep-2",
+    "title": "Overflowing waste dumpster at Sector 7 Park",
+    "description": "The community waste bin has not been cleared for over a week. Plastic bag waste, organic garbage, and boxes are piled up on the pavement, attracting stray dogs and flies. The smell is unbearable for residents walking in the park.",
+    "category": "garbage",
+    "location": {
+      "lat": 37.7801,
+      "lng": -122.4120,
+      "ward": "Ward 4 (Downtown)",
+      "address": "Sector 7 Park East Gate, Pine Street"
+    },
+    "status": "In_Progress",
+    "severity": "High",
+    "createdAt": "2026-06-26T14:15:00.000Z",
+    "contactDetails": {
+      "name": "Mark R.",
+      "phone": "+1 (555) 781-2244",
+      "email": "mark.r@gmail.com"
+    },
+    "analysis": {
+      "detectedIssue": "Accumulated public waste and sanitation hazard",
+      "confidenceScore": 0.94,
+      "severity": "High",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Solid Waste Management",
+      "explanation": "Uncollected trash has exceeded bin capacity, causing ecological and public health concerns. High risk of disease vectors (stray dogs/pests).",
+      "priorityLevel": "High",
+      "suggestedAuthority": "City Sanitation Department",
+      "recommendedResponseTime": "12 hours",
+      "summary": "Overflowing garbage dump at park entrance creating severe odor and public health risks."
+    }
+  },
+  {
+    "id": "rep-3",
+    "title": "Deep pothole hazard on Lake Road westbound",
+    "description": "Extremely deep pothole in the middle of the westbound lane of Lake Road. Several cars have suffered tyre blowouts today. Drivers are swerving dangerously into the oncoming lane to avoid it.",
+    "category": "damaged roads",
+    "location": {
+      "lat": 37.7658,
+      "lng": -122.4258,
+      "ward": "Ward 2 (Lakeview)",
+      "address": "342 Lake Road, near Lakeside Club"
+    },
+    "status": "Resolved",
+    "severity": "High",
+    "createdAt": "2026-06-25T09:10:00.000Z",
+    "contactDetails": {
+      "name": "Alex Mercer",
+      "phone": "+1 (555) 902-8811",
+      "email": "alex.m@gmail.com"
+    },
+    "analysis": {
+      "detectedIssue": "Dangerous deep pothole in high-speed lane",
+      "confidenceScore": 0.98,
+      "severity": "High",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Roads & Highways Infrastructure",
+      "explanation": "High-risk structural damage on a primary arterial road. Causes active vehicle damage and swerving maneuvers, significantly elevating accident risk.",
+      "priorityLevel": "High",
+      "suggestedAuthority": "Public Works Division",
+      "recommendedResponseTime": "24 hours",
+      "summary": "Deep road crater creating immediate traffic safety risks and vehicle damage on Lake Road."
+    }
+  },
+  {
+    "id": "rep-4",
+    "title": "Streetlight failure leaving Oak Ave in complete darkness",
+    "description": "Entire series of 5 streetlights is out along Oak Avenue, starting from the intersection of 5th Street. The street is completely dark, causing residents to feel unsafe walking home from the metro station. Increased risk of crime.",
+    "category": "broken streetlight",
+    "location": {
+      "lat": 37.7892,
+      "lng": -122.4012,
+      "ward": "Ward 1 (Metro-East)",
+      "address": "Oak Ave between 5th & 7th Street"
+    },
+    "status": "In_Progress",
+    "severity": "Medium",
+    "createdAt": "2026-06-27T21:00:00.000Z",
+    "analysis": {
+      "detectedIssue": "Multiple consecutive broken streetlights",
+      "confidenceScore": 0.91,
+      "severity": "Medium",
+      "urgency": "Monitor",
+      "suggestedDepartment": "Electrical & Street Lighting Department",
+      "explanation": "Multiple lighting fixtures down on a key pedestrian route to the metro. Decreases nighttime public safety and visibility.",
+      "priorityLevel": "Medium",
+      "suggestedAuthority": "Municipal Power & Grid Admin",
+      "recommendedResponseTime": "48 hours",
+      "summary": "Streetlight grid failure causing complete darkness across three residential blocks on Oak Ave."
+    }
+  },
+  {
+    "id": "rep-5",
+    "title": "Water leakage gushing from main pipe",
+    "description": "A high-pressure water pipe has burst under the pavement, sending a steady stream of drinking water onto the street. Hundreds of gallons are being wasted. Water is beginning to pool near residential doorways.",
+    "category": "water leakage",
+    "location": {
+      "lat": 37.7582,
+      "lng": -122.4312,
+      "ward": "Ward 2 (Lakeview)",
+      "address": "Intersection of Hill Street & 24th Ave"
+    },
+    "status": "Resolved",
+    "severity": "Medium",
+    "createdAt": "2026-06-24T11:45:00.000Z",
+    "analysis": {
+      "detectedIssue": "Main supply pipe leakage and pavement flooding",
+      "confidenceScore": 0.95,
+      "severity": "Medium",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Water Supply & Sewage Board",
+      "explanation": "High-pressure freshwater line rupture causing localized flooding and resource waste. Requires immediate valve shutoff and repair.",
+      "priorityLevel": "Medium",
+      "suggestedAuthority": "Municipal Water Utility",
+      "recommendedResponseTime": "24 hours",
+      "summary": "Sub-pavement municipal main pipe rupture causing heavy freshwater leakage and minor sidewalk flooding."
+    }
+  },
+  {
+    "id": "rep-6",
+    "title": "Fallen tree blockading Lane 2",
+    "description": "A massive oak branch collapsed during the high winds yesterday evening. It is completely blocking the lane, dragging down a secondary cable TV line and obstructing the sidewalk.",
+    "category": "fallen trees",
+    "location": {
+      "lat": 37.7850,
+      "lng": -122.4050,
+      "ward": "Ward 1 (Metro-East)",
+      "address": "415 Lane 2, near Metro Station"
+    },
+    "status": "Resolved",
+    "severity": "High",
+    "createdAt": "2026-06-25T18:00:00.000Z",
+    "analysis": {
+      "detectedIssue": "Fallen tree branch obstructing roadway and utilities",
+      "confidenceScore": 0.97,
+      "severity": "High",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Horticulture & Forestry Division",
+      "explanation": "Collapsed heavy branch blocking roadway lanes and entangling overhead low-voltage cables. Requires immediate chainsaw team.",
+      "priorityLevel": "High",
+      "suggestedAuthority": "Municipal Parks & Recreation",
+      "recommendedResponseTime": "6 hours",
+      "summary": "Heavy tree branch collapse blocking traffic lanes and pulling down utility cables."
+    }
+  },
+  {
+    "id": "rep-7",
+    "title": "Illegal construction waste dumping",
+    "description": "A truck dumped multiple piles of concrete debris, brick fragments, and broken tiles on the vacant land behind our housing complex. It is creating hazardous dust and ruining the natural scrubland.",
+    "category": "illegal dumping",
+    "location": {
+      "lat": 37.7420,
+      "lng": -122.4510,
+      "ward": "Ward 3 (Green Hills)",
+      "address": "Vacant lot behind Sector 12 Housing Block"
+    },
+    "status": "Pending",
+    "severity": "Medium",
+    "createdAt": "2026-06-28T02:00:00.000Z",
+    "analysis": {
+      "detectedIssue": "Illegal commercial construction debris dumping",
+      "confidenceScore": 0.93,
+      "severity": "Medium",
+      "urgency": "Monitor",
+      "suggestedDepartment": "Environmental Protection & Enforcement",
+      "explanation": "Unauthorized dumping of heavy dry waste in an eco-sensitive zone. Poses ecological damage and dust hazards.",
+      "priorityLevel": "Medium",
+      "suggestedAuthority": "City Environmental Protection Agency",
+      "recommendedResponseTime": "48 hours",
+      "summary": "Commercial-scale construction debris illegal dumping behind residential sector."
+    }
+  },
+  {
+    "id": "rep-8",
+    "title": "Choked drainage pipeline causing backflow",
+    "description": "The open drainage channel in Ward 4 has been completely choked with leaves and plastic waste. Now, sewage is backing up into our courtyard, releasing an incredible stench and creating breeding grounds for mosquitoes.",
+    "category": "blocked drains",
+    "location": {
+      "lat": 37.7725,
+      "lng": -122.4220,
+      "ward": "Ward 4 (Downtown)",
+      "address": "129 Market Alleyway, near Ward Office"
+    },
+    "status": "Pending",
+    "severity": "High",
+    "createdAt": "2026-06-28T03:30:00.000Z",
+    "analysis": {
+      "detectedIssue": "Sewer pipeline choke and toxic backflow",
+      "confidenceScore": 0.94,
+      "severity": "High",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Drainage & Sewerage Operations",
+      "explanation": "Choked public drains are causing active wastewater backflow into civilian courtyards. High sanitation risk and severe vector-borne disease threat.",
+      "priorityLevel": "High",
+      "suggestedAuthority": "Water Supply & Sewerage Board",
+      "recommendedResponseTime": "12 hours",
+      "summary": "Severe sewage drain choke triggering toxic backflow into residential zones."
+    }
+  },
+  {
+    "id": "rep-9",
+    "title": "Pack of aggressive stray dogs near playground",
+    "description": "There is a pack of around 8 stray dogs that have made the corner of the playground their home. They are highly territorial and have chased several children playing near the swings today. Parents are very worried.",
+    "category": "stray animal issue",
+    "location": {
+      "lat": 37.7390,
+      "lng": -122.4450,
+      "ward": "Ward 3 (Green Hills)",
+      "address": "Green Hills Public Playground, Sector 4"
+    },
+    "status": "Pending",
+    "severity": "High",
+    "createdAt": "2026-06-28T01:10:00.000Z",
+    "analysis": {
+      "detectedIssue": "Territorial stray animal pack in public park",
+      "confidenceScore": 0.89,
+      "severity": "High",
+      "urgency": "Action Required",
+      "suggestedDepartment": "Animal Welfare & Control Department",
+      "explanation": "Aggressive stray pack occupying children's playground area. High risk of dog bites and rabies exposure. Urgent neutering/sheltering intervention required.",
+      "priorityLevel": "High",
+      "suggestedAuthority": "Municipal Animal Control Board",
+      "recommendedResponseTime": "12 hours",
+      "summary": "Pack of aggressive stray dogs chasing children at public playground."
+    }
+  }
+]
